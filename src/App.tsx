@@ -27,7 +27,6 @@ const App = () => {
     "products",
     getProducts
   );
-  console.log(data);
 
   const [cartOpen, setCartOpen] = useState(false);
   const [cartItems, setCartItems] = useState([] as CartItemType[]);
