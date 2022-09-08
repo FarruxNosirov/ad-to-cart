@@ -16,7 +16,7 @@ const Item: React.FC<ItemProps> = ({ item, handleAddToCart }) => (
       <p>{item.description}</p>
       <h3>${item.price}</h3>
     </div>
-    <button onClick={() => handleAddToCart(item)}>ADD TO CART</button>
+    <Button onClick={() => handleAddToCart(item)}>ADD TO CART</Button>
   </Wrapper>
 );
 

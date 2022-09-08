@@ -17,9 +17,7 @@ export const Wrapper = styled.div`
     background-color: transparent;
     margin-bottom: 1rem;
   }
-  button:active {
-    transform: scale(1.05);
-  }
+
   img {
     border-radius: 20px 20px 0 0;
     max-height: 250px;
